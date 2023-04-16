@@ -1,0 +1,47 @@
+.tech-section {
+  position: relative;
+  margin-top: 114px;
+}
+.tech-section .img-block .main-img {
+  width: 100%;
+  position: absolute;
+}
+.tech-section .img-block .above-img {
+  height: 303px;
+}
+.tech-section .img-block h2 {
+  position: absolute;
+}
+.tech-section .img-block h2:nth-child(1) {
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+.tech-section .img-block h2:nth-child(2) {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+.tech-section .img-block .arrow-down {
+  width: 60px;
+  position: absolute;
+  top: 83.5%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border-radius: 50%;
+  border: 8px solid rgba(0, 0, 0, 0.3);
+}
+
+.tech-co {
+  margin-top: 70px;
+}

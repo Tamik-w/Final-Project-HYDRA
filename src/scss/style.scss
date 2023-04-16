@@ -1,0 +1,128 @@
+@import "./header/header.scss";
+@import "./section-1/section-1-style.scss";
+@import "./section-1/cards-section-one.scss";
+@import "./about/about.scss";
+@import "./services/services.scss";
+@import "./tech/tech.scss";
+@import "./process/process.scss";
+@import "./form/form.scss";
+@import "./footer/footer.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #302C42;
+    font-family: 'Montserrat', sans-serif;
+
+    .vector-1 {
+        position: absolute;
+        right: 0px;
+        top: 170px;
+    }
+    .vector-2 {
+        position: absolute;
+        left: 929px;
+        top: 0px;
+        
+    }
+    .vector-3 {
+        position: absolute;
+        left: 707.47px;
+        top: 419.18px;
+
+    }
+    .vector-4 {
+        position: absolute;
+        left: 2.5px;
+        top: 274px;
+    }
+    .vector-7 {
+        position: absolute;
+        left: 77.5px;
+        top: 1268.32px;
+    }
+    .vector-8 {
+        position: absolute;
+        left: -4.5px;
+        top: 1553.82px;        
+    }
+    .vector-14 {
+        position: absolute;
+        width: 1522px;
+        left: -3px;
+        top: 2187px;        
+    }
+    .vector-15 {
+        position: absolute;
+        width: 1522px;
+        left: -3px;
+        top: 3600px;
+    }
+    .vector-18 {
+        position: absolute;
+        width: 1522px;
+        left: -3px;
+        top: 5050px;
+    }
+    .vector-19 {
+        position: absolute;
+        width: 1522px;
+        left: -3px;
+        top: 4750px;
+    }
+
+}
+
+.container {
+    max-width: 88%;
+    margin: auto;
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #302C42;        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #302C42;    
+    border-radius: 10px;       
+    border: 1px solid #6b5fa0; 
+  }
+
+@media  screen and (max-width: 768px) { 
+    body {
+        max-width: 768px;
+    }
+}
+
+@media  screen and (max-width: 480px) { 
+    body {
+        max-width: 480px;
+    }
+}
+
+
+

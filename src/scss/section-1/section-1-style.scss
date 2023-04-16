@@ -1,0 +1,83 @@
+.section-one {
+    position: relative;
+    margin-top: 112px;
+
+    .left-side {
+        .text-container {
+            
+            h1 {
+                font-size: 40px;
+                color: white;
+                span {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 46px;
+                    line-height: 56px;
+                    
+                    background: linear-gradient(91.57deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                }
+            }
+
+            &:nth-child(1) {
+                width: 456px;
+            }
+            &:nth-child(2) {
+                width: 402px;
+            }
+
+
+            p {
+                margin-top: 36px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                color: #FFFFFF;
+            }
+        }
+        .button-container {
+            margin-top: 70px;
+            width: 325px;
+            button {
+                position: relative;
+                font-size: 12px;
+                color: #343045;
+                text-transform: uppercase;
+                background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+                border: none;
+                font-weight: bold;
+                width: 214px;
+                height: 48px;
+                border-radius: 40px;
+                transition: 0.3s;
+            }
+
+            &::after {
+                transition: 0.3s;
+                content: url('../../vectors/arrow-small-right.svg');
+                position: absolute;
+                left: 200px;
+            }
+
+            &:hover::after {
+                left: 220px;  
+            }
+        }
+    }
+
+    .right-side {
+
+        .img-border {
+            img {
+                border: 15px solid rgba(0,0,0,0.3);
+                border-radius: 100px 100px 100px 240px;
+            }
+        }
+    }
+}
+

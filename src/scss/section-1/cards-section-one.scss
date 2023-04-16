@@ -1,0 +1,69 @@
+.cards-section-one {
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    height: 167px;
+    background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+    box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+    border-radius: 90px;    
+    
+    .cards-container {
+        height: 167px;
+        justify-content: space-around;
+        position: relative;
+    }
+    
+    .card {
+
+        img {
+            margin-right: 10px;
+        }
+        .text-container {
+            cursor: pointer;
+            transition: 0.3s;
+            h3 {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 29px;
+                color: #FFFFFF;
+            }
+            p {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: #FFFFFF;
+            }
+        }
+
+        &:hover {
+            animation: shadow 2s ease-in-out infinite alternate;
+        }
+        
+        @keyframes shadow {
+            from {
+              text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+            }
+            to {
+              text-shadow: 0 0 15px #fff 0 0 25px #fff;
+            }
+        }
+
+    }
+
+    .borders-box {
+        position: absolute;
+        top: 50%;
+        left: 52.5%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        height: 100px;
+        border-right: 1px solid #FFFFFF;
+        border-left: 1px solid #FFFFFF;
+    }
+
+}
+
